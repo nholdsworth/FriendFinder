@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Friend-Finder</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+
+<body>
+    <div class="container">
+
+        <h2>
+            Survey Questions
+        </h2>
+
+        <hr>
+
+        <h3>
+            <strong>About You</strong>
+        </h3>
+
+        <h4>
+            Name (Required)
+        </h4>
+
+        <input type="text" id="name" class="form-control" required>
+
+        <h4>
+            Link to Photo (Required)
+        </h4>
+
+        <input type="text" id="photo" class="form-control" required>
+
+        <hr>
+
+        <div class="container" id="q1container">
+            <h3>
+                <strong>Question 1</strong>
+            </h3>
+            <h4>This is the first question</h4>
+            <select id="question1">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="container" id="q2container">
+            <h3>
+                <strong>Question 2</strong>
+            </h3>
+            <h4>This is the second question</h4>
+            <select id="question2">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="container" id="q3container">
+            <h3>
+                <strong>Question 3</strong>
+            </h3>
+            <h4>This is the third question</h4>
+            <select id="question3">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="container" id="q4container">
+            <h3>
+                <strong>Question 4</strong>
+            </h3>
+            <h4>This is the fourth question</h4>
+            <select id="question4">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="container" id="q5container">
+            <h3>
+                <strong>Question 5</strong>
+            </h3>
+            <h4>This is the fifth question</h4>
+            <select id="question5">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="container" id="q6container">
+            <h3>
+                <strong>Question 6</strong>
+            </h3>
+            <h4>This is the sixth question</h4>
+            <select id="question6">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="container" id="q7container">
+            <h3>
+                <strong>Question 7</strong>
+            </h3>
+            <h4>This is the seventh question</h4>
+            <select id="question7">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="container" id="q8container">
+            <h3>
+                <strong>Question 8</strong>
+            </h3>
+            <h4>This is the eigth question</h4>
+            <select id="question8">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="container" id="q9container">
+            <h3>
+                <strong>Question 9</strong>
+            </h3>
+            <h4>This is the ninth question</h4>
+            <select id="question9">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="container" id="q10container">
+            <h3>
+                <strong>Question 10</strong>
+            </h3>
+            <h4>This is the tenth question</h4>
+            <select id="question10">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <br>
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit" data-toggle="modal" data-target="#exampleModal">
+            <i class="fas fa-brain"></i>
+            Submit (to group think...)
+        </button>
+
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="/api/friends">API Friends List</a>
+                |
+                <a href="https://github.com/nholdsworth/FriendFinder">GitHub Repository</a>
+            </p>
+        </div>
+
+    </footer>
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">You Think Just Like:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id = "bestFriend">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // When the submit button is clicked run this function instead of doing the default thing
+        $("#submit").on("click", function (event) {
+            // prevents the default action of the #submit button
+            event.preventDefault();
+            // creates a new object variable that uses jquery to take the user's answers to the survey questions and create a JSON object with the information so that their survey answers can be compared to that of other users
+            let newFriend = {
+                // name input from the html form (line 37)
+                name: $("#name").val().trim(),
+                // the URL input that the user inputs on the html form (line 43)
+                photo: $("#photo").val().trim(),
+                // the numerical selection for each question on the survey held in an array named surveyAnswers
+                surveyAnswers: [
+                    $("#question1").val(),
+                    $("#question2").val(),
+                    $("#question3").val(),
+                    $("#question4").val(),
+                    $("#question5").val(),
+                    $("#question6").val(),
+                    $("#question7").val(),
+                    $("#question8").val(),
+                    $("#question9").val(),
+                    $("#question10").val(),
+                ]
+            };
+
+            // This is the Jquery post method that sends a POST request containing newFriend (the new users name, photo and survey answers to  the URL route "/api/friends)"
+            $.post("/api/friends", newFriend)
+                // LINGUISTIC UNCERTAINTY: this is a promise or a callback function, I am not really sure which...
+                .then(function (data) {
+                    $("#bestFriend").html(data);
+                    console.log("/survey", data);
+                    // alert("Insulating you from people that don't think like you!");
+                });
+        });
+
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

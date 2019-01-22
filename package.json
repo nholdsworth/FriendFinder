@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "friendfinder app for bootcamp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nholdsworth/FriendFinder.git"
+  },
+  "author": "nathaniel holdsworth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nholdsworth/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/nholdsworth/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
